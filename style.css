@@ -1,0 +1,269 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-color:#ffdab9;
+}
+
+
+.navbar{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:fixed;
+	top:0px;
+	width:1600px;
+    z-index:1;	
+	background-color:black;
+}
+
+.navbar ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	display:flex;
+	justify-content:center;
+	background-color:black;
+}
+
+.navbar ul li{
+	display:inline-block;
+}
+	
+.navbar ul li a{
+	color:white;
+	display:block;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding: 25px 20px;
+	font-size:16px;
+	color:white;
+	letter-spacing:3px;
+}
+	
+.navbar ul li a:hover{
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	box-shadow:0 0 10px white;
+    }
+	
+#home{
+	background: url("./images/foodbg4.jpg") center center ;
+	background-size:cover;
+	height:750px;
+	color:white;
+	text-align:center;
+	margin-bottom:57px;
+}
+
+.three{
+	padding-top:230px;
+}
+
+#home h1{
+	color:red;
+	text-align:center;
+	font-size:70px;
+	font-weight:300;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	padding-bottom:20px;
+	text-shadow:2px 4px 2px black;
+}
+
+#home p{
+	letter-spacing:2px;
+	color:#f3e1bc;
+	font-size:25px;
+	font-weight:100;
+	text-shadow:2px 4px 2px black;
+}
+
+#home h3{
+	letter-spacing:2px;
+	color:green;
+	text-align:center;
+	font-size:50px;
+	font-weight:200;
+	padding-bottom:25px;
+	text-shadow:2px 4px 2px black;
+}
+
+#menubar{ 
+    height:750px;
+	margin-top:80px;
+	margin-bottom:50px;
+	background-color:#f2dbbd;
+}
+
+.menu{
+    margin:18px;
+    border:3px solid black;
+    box-shadow:5px 5px 5px gray;
+    float:left;
+	margin-bottom:25px;
+}
+
+.menu:hover{
+	opacity:0.5;
+}
+
+.menu p{
+    font-style:arial;
+    font-weight:bold;
+    font-size:16px;
+}
+
+#recipes{
+	height:3150px;
+	margin-top:80px;
+}
+
+.belgian ul li,h4{
+	width:700px;
+	margin-left:480px;
+	font-size:23px;
+	font-family:times new roman;
+    line-height:33px;
+}
+
+.belgian h3{
+	margin-left:480px;
+	font-size:27px;
+	font-family:times new roman;
+	text-decoration:underline;
+}
+
+.belgian img{
+	margin-left:600px;
+	margin-top:80px;
+	border:3px solid black;
+}
+
+.belgian h1{
+	margin-left:550px;
+	font-size:30px;
+	font-family:times new roman;
+	text-decoration:underline;
+}
+
+.choci ul li,h4{
+	width:700px;
+	margin-left:480px;
+	font-size:23px;
+	font-family:times new roman;
+    line-height:33px;
+}
+
+.choci h3{
+	margin-left:480px;
+	font-size:27px;
+	font-family:times new roman;
+	text-decoration:underline;
+}
+
+.choci img{
+	margin-left:600px;
+	margin-top:80px;
+	border:3px solid black;
+}
+
+.choci h1{
+	margin-left:550px;
+	font-size:30px;
+	font-family:times new roman;
+	text-decoration:underline;
+}
+
+.abt img{
+	text-align:center;
+		margin-left:480px;
+}
+
+.abt p{
+	width:900px;
+	margin-left:380px;
+	font-size:23px;
+	font-family:times new roman;
+    line-height:33px;
+}
+
+.abt a{
+	color:red;
+}
+
+#contact{
+	padding:25px 0 25px 0;
+	height:750px;
+}
+
+.section{
+    text-align:center;
+    font-size:40px;	
+}
+
+.row{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:0 100px 0 100px;
+	flex-wrap:wrap;
+}
+
+.col{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	flex:1;
+}
+
+.col p{
+	font-weight:bold;
+	color:black;
+	margin:10px;
+	font-size:25px;
+}
+
+.col p a{
+	font-weight:bold;
+	color:brown;
+	text-decoration:underline;
+}
+
+.contact_col form{
+	display:flex;
+	flex-direction:column;
+	background-color:brown;
+	width:100%;
+	height:100%;
+	padding:20px 40px 20px 20px;
+}
+
+.contact_col form h2{
+	text-align:center;
+	font-family:times new roman;
+}
+
+.contact_col form input{
+	width:100%;
+	height:17pt;
+	padding:5px;
+	margin:5px;
+}
+
+.contact_col form textarea{
+	width:100%;
+	padding:5px;
+}
+
+.contact_col form button{
+	margin:auto;
+    color:black;
+	background-color:aqua;
+	border:1px solid black;
+	padding:5px;
+}
